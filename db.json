@@ -1,0 +1,54 @@
+{
+  "clients": [
+    {
+      "id": "8b381dc2-757a-4472-be20-8e46a1919b2d",
+      "name": "Darren Franecki",
+      "date": "Fri Aug 28 2020 10:16:19 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "f71e0fbd-d3a4-4efc-8442-c99cbf2f4211",
+      "name": "Lloyd Jakubowski",
+      "date": "Fri Aug 28 2020 10:48:14 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "d43742c9-ce35-46e6-a736-4b3607fad129",
+      "name": "Mathew Wilderman",
+      "date": "Fri Aug 28 2020 10:49:12 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "c7da3ba9-7476-4585-8ed1-a8db65bc4dc7",
+      "name": "Ramona Ortiz",
+      "date": "Fri Aug 28 2020 10:49:13 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "2d2c9371-8f35-4a0e-adc7-9af1f0af48a2",
+      "name": "Albert Schmeler",
+      "date": "Fri Aug 28 2020 10:49:29 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "6c934c44-bbb2-45ab-a5f2-817a71757b4b",
+      "name": "Chad Lubowitz",
+      "date": "Fri Aug 28 2020 10:49:35 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "e99610dc-6656-469d-8bd6-17d89fce24d9",
+      "name": "Juan Langosh",
+      "date": "Fri Aug 28 2020 12:26:54 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "86462c92-bca5-41d4-be93-a07a51aef113",
+      "name": "Francis Purdy IV",
+      "date": "Fri Aug 28 2020 12:31:21 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "2493d6b8-18cc-4b75-8564-be83271957fa",
+      "name": "Mrs. Ken Dare",
+      "date": "Fri Aug 28 2020 13:09:47 GMT+0200 (hora de verano de Europa central)"
+    },
+    {
+      "id": "c493fcc6-229d-45a1-871f-62962d71d190",
+      "name": "Ms. Herman Bednar",
+      "date": "Fri Aug 28 2020 13:09:57 GMT+0200 (hora de verano de Europa central)"
+    }
+  ]
+}

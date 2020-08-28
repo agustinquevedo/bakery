@@ -1,0 +1,34 @@
+html {
+
+    --sky: #ECFBFD;
+    --grass: #3F8D44;
+    --house-color: #F5F5F4;
+    --window: #00B2CA; 
+    --door: #542F12;
+  
+  
+    --roof: #E92E20;
+  }
+  
+  html[data-theme="dark"] {
+  
+  
+    --sky: #1a1a1d;
+    --grass: #204622;
+    --house-color: #E2E3E2;
+    --window: #1d4e89;
+    --door: #321C0B;
+   
+    --roof: #BA1E12;
+    
+    
+  }
+
+
+html.color-theme-in-transition,
+html.color-theme-in-transition *,
+html.color-theme-in-transition *:before,
+html.color-theme-in-transition *:after {
+  transition: all 300ms !important;
+  transition-delay: 0 !important;
+}

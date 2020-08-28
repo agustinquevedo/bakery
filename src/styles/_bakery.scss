@@ -1,0 +1,125 @@
+.Bakery {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    z-index: 1030;
+    .Roof {
+      width: 0;
+      height: 0;
+      border-left: 200px solid transparent;
+      border-right: 200px solid transparent;
+      border-bottom: 200px solid var(--roof);
+    }
+    .Letter {
+      width: 200px;
+      height: 50px;
+      background-color: limegreen;
+      color: green;
+      text-transform: uppercase;
+      font-weight: 700;
+      border: 3px solid green;
+      border-radius: 10px;
+      position: absolute;
+      left: 100px;
+      bottom: 280px;
+      z-index: 1035;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Box { 
+      width: 400px;
+      height: 300px;
+      background-color: var(--house-color);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-end;
+      .Window {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 100px;
+        background-color: var(--window);
+        border: 3px solid white;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+        &:hover + .Cookie {
+          display: block;
+        }
+    }
+    .Window.dont-be-a-cookie:hover + .Cookie{
+      display: none;
+    }
+    .Cookie  { 
+      position: absolute;
+      display: none;     
+      width: 110px;
+      height: 110px;
+      bottom: 100px;
+      cursor: pointer;
+      &:hover {
+        display: block;
+      }
+    }
+    .cookie-r { right: 10px; }
+    .cookie-l { left:  10px;}
+
+    .Window.dont-be-a-cookie:hover{
+      cursor: default;
+    }
+    .Mailbox {
+      width: 80px;
+      height: 60px;
+      margin-bottom: 20px;
+      background-color: grey;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      right: 20px;
+      &:before {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 5px;
+        margin: 5px auto;
+        background-color: darkgray;
+      }
+      &:after {
+        content: 'Mailbox';
+        font-size: .5rem;
+        text-transform: uppercase;
+      }
+      
+    }
+    .Mailbox.brooken {
+      cursor: default;
+    }
+    .Mailbox.brooken.in-the-floor {
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      transition: .3s ease-in-out;
+    }
+    .Door {
+      width: 150px;
+      height: 250px;
+      background-color: var(--door);
+      border-bottom: 3px solid gray;
+      cursor: pointer;
+      &:before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: darkred;
+        position: relative;
+        top: 100px;
+        left: 10px;
+      }
+    }
+    .Door.bakery-closed {
+      cursor: default;
+    }
+  }
+}
